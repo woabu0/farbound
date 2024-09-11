@@ -1,0 +1,26 @@
+[
+  {
+    "icon": "img/cat1.png",
+    "title": "Free",
+    "footer_title": "Free Games",
+    "link": "/freepage"
+  },
+  {
+    "icon": "img/cat2.png",
+    "title": "Action",
+    "footer_title": "Action Games",
+    "link": "/actionpage"
+  },
+  {
+    "icon": "img/cat3.png",
+    "title": "Adventure",
+    "footer_title": "Adventure Games",
+    "link": "/adventurepage"
+  },
+  {
+    "icon": "img/cat4.png",
+    "title": "Racing",
+    "footer_title": "Racing Games",
+    "link": "/racepage"
+  }
+]
