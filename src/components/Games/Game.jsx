@@ -35,7 +35,7 @@ function Game(props) {
         }`}
       >
         <div>
-          <h1 className="text-[10px] md:text-[14px] uppercase">
+          <h1 className="text-[10px] font-medium md:text-[14px] uppercase">
             {props.title}
           </h1>
           <Link

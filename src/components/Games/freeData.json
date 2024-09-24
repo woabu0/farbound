@@ -17,11 +17,12 @@
     "link": "/Games/Free/BabyDollHouseCleaning/index.html",
     "thumbnail": "Games/Free/BabyDollHouseCleaning/Thumbnail/thumbnail.jpg"
   },
+  
   {
     "id": 4,
-    "name": "Balloon Popping",
-    "link": "/Games/Free/BalloonPopping/index.html",
-    "thumbnail": "Games/Free/BalloonPopping/Thumbnail/thumbnail.jpg"
+    "name": "Word Search Puzzle",
+    "link": "/Games/Free/WordSearchPuzzle/index.html",
+    "thumbnail": "Games/Free/WordSearchPuzzle/Thumbnail/thumbnail.jpg"
   },
   {
     "id": 5,
@@ -31,7 +32,7 @@
   },
   {
     "id": 6,
-    "name": "Cook Up Yummy Kitchen Cooking",
+    "name": "Cook Up Yummy Kitchen",
     "link": "/Games/Free/CookUpYummyKitchenCooking/index.html",
     "thumbnail": "Games/Free/CookUpYummyKitchenCooking/Thumbnail/thumbnail.jpg"
   },
@@ -295,8 +296,8 @@
   },
   {
     "id": 50,
-    "name": "Word Search Puzzle",
-    "link": "/Games/Free/WordSearchPuzzle/index.html",
-    "thumbnail": "Games/Free/WordSearchPuzzle/Thumbnail/thumbnail.jpg"
+    "name": "Balloon Popping",
+    "link": "/Games/Free/BalloonPopping/index.html",
+    "thumbnail": "Games/Free/BalloonPopping/Thumbnail/thumbnail.jpg"
   }
 ]
