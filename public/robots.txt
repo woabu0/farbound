@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://farbound0.vercel.app/sitemap.xml
+

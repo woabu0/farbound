@@ -1,0 +1,155 @@
+@import "tailwindcss";
+
+:root {
+  --background: #0a0a0a;
+  --foreground: #ededed;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-heading: var(--font-orbitron);
+  --font-body: var(--font-exo2);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-exo2), Arial, Helvetica, sans-serif;
+  scroll-behavior: smooth;
+}
+
+/* Apply gaming font to headings */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-orbitron), Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+}
+
+/* Apply to buttons for gaming feel */
+button {
+  font-family: var(--font-orbitron), Arial, Helvetica, sans-serif;
+  letter-spacing: 0.03em;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom animations */
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fade-in 1s ease-out;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1a1a1a;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #4a4a4a;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #5a5a5a;
+}
+
+/* Gaming font enhancements */
+.font-heading {
+  font-family: var(--font-orbitron), Arial, Helvetica, sans-serif;
+  letter-spacing: 0.05em;
+  font-weight: 700;
+}
+
+.font-body {
+  font-family: var(--font-exo2), Arial, Helvetica, sans-serif;
+}
+
+/* Enhanced text rendering for gaming fonts */
+h1, h2, h3, h4, h5, h6,
+.font-heading {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Responsive improvements */
+* {
+  box-sizing: border-box;
+}
+
+/* Prevent horizontal overflow */
+html, body {
+  overflow-x: hidden;
+  max-width: 100vw;
+}
+
+/* Prevent text overflow on small screens */
+h1, h2, h3, h4, h5, h6, p, span, li {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  hyphens: auto;
+}
+
+/* Ensure images are responsive */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Ensure containers don't overflow */
+.container, [class*="container"] {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+/* Touch-friendly tap targets on mobile */
+@media (max-width: 768px) {
+  button, a {
+    min-height: 44px;
+    min-width: 44px;
+  }
+}
+
+/* Performance optimizations */
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Optimize animations for GPU acceleration */
+.animate-pulse,
+.animate-bounce {
+  will-change: transform, opacity;
+  transform: translateZ(0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+/* Reduce motion for users who prefer it */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
