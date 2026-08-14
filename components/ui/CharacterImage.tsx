@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
+import { BASE_PATH } from '@/lib/config';
 
 interface CharacterImageProps {
   name: string;
@@ -23,7 +24,7 @@ export const CharacterImage: React.FC<CharacterImageProps> = ({ name, classType,
       {/* Profile Picture Container */}
       <div className="relative w-32 h-32 md:w-40 md:h-40 rounded-full overflow-hidden border-2 border-white/20 shadow-xl bg-gray-900">
         <Image
-          src={`/images/${imagePath}`}
+          src={`${BASE_PATH}/images/${imagePath}`}
           alt={`${name} - ${classType}`}
           fill
           className="object-cover object-center object-top"

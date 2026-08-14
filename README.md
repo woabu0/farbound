@@ -1,5 +1,7 @@
 # Farbound - Landing Page
 
+![Farbound](farbound.png)
+
 Welcome to the **Farbound** project! This README provides an overview of the project, setup instructions, and other relevant details.
 
 ## Table of Contents
@@ -15,7 +17,8 @@ Welcome to the **Farbound** project! This README provides an overview of the pro
 
 ## Visit
 
-- [Vercel](https://farbound0.vercel.app/)
+- [Repository](https://github.com/aabubokarr/farbound)
+- [Website](https://aabubokarr.github.io/farbound/)
 
 ## About
 
@@ -23,25 +26,16 @@ Welcome to the **Farbound** project! This README provides an overview of the pro
 
 ## Features
 
-- Hero Section
-- Features Section
-- Characters Section
-- Gallery Section
-- Game Modes Section
-- System Requirements
-- Community Section
-- Reviews Section
-- Roadmap Section
-- Pricing Section
-- FAQ Section
-- Newsletter Section
+- Modern UI/UX
+- High Res Images
+- Characters Showcase
 - Responsive Design
 
 ## Installation
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/woabu0/farbound.git
+   git clone https://github.com/aabubokarr/farbound.git
    ```
 2. Navigate to the project directory:
    ```bash
@@ -64,60 +58,64 @@ Welcome to the **Farbound** project! This README provides an overview of the pro
 
 ```
 farbound/
-├── app/                        # Next.js App Router directory
-│   ├── components/             # React components
-│   │   ├── sections/           # Page sections
-│   │   │   ├── CharactersSection.tsx
-│   │   │   ├── CommunitySection.tsx
-│   │   │   ├── FAQSection.tsx
-│   │   │   ├── FeaturesSection.tsx
-│   │   │   ├── GallerySection.tsx
-│   │   │   ├── GameModesSection.tsx
-│   │   │   ├── HeroSection.tsx
-│   │   │   ├── NewsletterSection.tsx
-│   │   │   ├── PricingSection.tsx
-│   │   │   ├── ReviewsSection.tsx
-│   │   │   ├── RoadmapSection.tsx
-│   │   │   └── SystemRequirementsSection.tsx
-│   │   ├── ui/                 # Reusable UI components
-│   │   │   ├── Button.tsx
-│   │   │   ├── Card.tsx
-│   │   │   ├── CharacterImage.tsx
-│   │   │   ├── Container.tsx
-│   │   │   ├── Icons.tsx
-│   │   │   └── Section.tsx
-│   │   ├── Footer.tsx          # Footer component
-│   │   └── Navbar.tsx          # Navigation bar
-│   ├── icon.svg                # Site favicon (SVG)
-│   ├── globals.css             # Global styles and Tailwind imports
-│   ├── layout.tsx              # Root layout with fonts and metadata
-│   └── page.tsx                # Home page component
-├── public/                     # Static assets
-│   ├── images/                 # Image assets
-│   │   ├── aether.png          # Character images
+├── .github/                            # GitHub configuration
+│   └── workflows/                      # GitHub Actions workflows
+│       └── deploy.yml                  # GitHub Pages deployment workflow
+├── app/                                # Next.js App Router directory
+│   ├── icon.svg                        # Site favicon (SVG)
+│   ├── globals.css                     # Global styles and Tailwind imports
+│   ├── layout.tsx                      # Root layout with fonts and metadata
+│   └── page.tsx                        # Home page component
+├── components/                         # React components
+│   ├── sections/                       # Page sections
+│   │   ├── CharactersSection.tsx
+│   │   ├── CommunitySection.tsx
+│   │   ├── FAQSection.tsx
+│   │   ├── FeaturesSection.tsx
+│   │   ├── GallerySection.tsx
+│   │   ├── GameModesSection.tsx
+│   │   ├── HeroSection.tsx
+│   │   ├── NewsletterSection.tsx
+│   │   ├── PricingSection.tsx
+│   │   ├── ReviewsSection.tsx
+│   │   ├── RoadmapSection.tsx
+│   │   └── SystemRequirementsSection.tsx
+│   ├── ui/                             # Reusable UI components
+│   │   ├── Button.tsx
+│   │   ├── Card.tsx
+│   │   ├── CharacterImage.tsx
+│   │   ├── Container.tsx
+│   │   ├── Icons.tsx
+│   │   └── Section.tsx
+│   ├── Footer.tsx                      # Footer component
+│   └── Navbar.tsx                      # Navigation bar
+├── lib/
+│   └── config.ts                       # Configuration file
+├── public/                             # Static assets
+│   ├── images/                         # Image assets
 │   │   ├── guardian.png
 │   │   ├── lumina.png
 │   │   ├── shadow.png
-│   │   └── screenshot-*.png   # Game screenshots (1-6)
-│   └── robots.txt              # SEO robots file
-├── .next/                      # Next.js build output (generated)
-├── node_modules/               # Dependencies (generated)
-├── eslint.config.mjs           # ESLint configuration
-├── next.config.ts              # Next.js configuration
-├── next-env.d.ts               # Next.js TypeScript definitions
-├── package.json                # Dependencies and scripts
-├── package-lock.json           # Lock file for dependencies
-├── postcss.config.mjs          # PostCSS configuration
-├── tsconfig.json               # TypeScript configuration
-├── LICENSE                     # MIT License
-└── README.md                   # Project documentation
+│   │   └── screenshot-*.png            # Game screenshots (1-6)
+│   └── robots.txt                      # SEO robots file
+├── .next/                              # Next.js build output (generated)
+├── node_modules/                       # Dependencies (generated)
+├── eslint.config.mjs                   # ESLint configuration
+├── next.config.ts                      # Next.js configuration
+├── next-env.d.ts                       # Next.js TypeScript definitions
+├── package.json                        # Dependencies and scripts
+├── package-lock.json                   # Lock file for dependencies
+├── postcss.config.mjs                  # PostCSS configuration
+├── tsconfig.json                       # TypeScript configuration
+├── LICENSE                             # MIT License
+└── README.md                           # Project documentation
 ```
 
 ## Contributors
 
 <p align="center">
-  <a href="https://github.com/woabu0/farbound/graphs/contributors">
-    <img src="https://contrib.rocks/image?repo=woabu0/farbound" alt="Contributors" />
+  <a href="https://github.com/aabubokarr/farbound/graphs/contributors">
+    <img src="https://contrib.rocks/image?repo=aabubokarr/farbound" alt="Contributors" />
   </a>
 </p>
 

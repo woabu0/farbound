@@ -3,6 +3,7 @@
 import React, { useState } from 'react';
 import Image from 'next/image';
 import { Section } from '../ui/Section';
+import { BASE_PATH } from '@/lib/config';
 
 const screenshots = [
   { id: 1, image: 'screenshot-1.png' },
@@ -31,7 +32,7 @@ export const GallerySection: React.FC = () => {
       <div className="mb-4 sm:mb-6 rounded-xl sm:rounded-2xl overflow-hidden shadow-2xl border border-white/20 relative">
         <div className="aspect-video relative">
           <Image
-            src={`/images/${screenshots[selectedImage].image}`}
+            src={`${BASE_PATH}/images/${screenshots[selectedImage].image}`}
             alt={`Farbound Gameplay Screenshot ${selectedImage + 1}`}
             fill
             className="object-cover"
@@ -54,7 +55,7 @@ export const GallerySection: React.FC = () => {
             }`}
           >
             <Image
-              src={`/images/${screenshot.image}`}
+              src={`${BASE_PATH}/images/${screenshot.image}`}
               alt={`Farbound Screenshot ${screenshot.id}`}
               fill
               className={`object-cover transition-opacity ${
